@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: #ffffff71;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+
+header{
+    display:flex;
+    min-height: 80px;
+    background-color:rgb(247, 57, 57) ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    text-align:center;
+    padding: 25px;
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    height: 80px;
+    width: 200px;
+    
+}
+
+#barra{
+    justify-content: center;
+    padding: 20px;
+    padding-left:15%;
+}
+.boton{
+    background-color: black;
+    color: white;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+main{
+    text-align: center;
+    
+}
+p{
+    font-weight: 600;
+}
+
+.articles{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: black;
+
+}
+
+.article{
+    border: 5px solid rgb(255, 0, 0);
+    max-width:200px;
+    margin: 50px 20px;
+    display: inline-block;
+    font-display:200px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    
+}
+
+.article-header__img{
+    max-width:  200px;
+    max-height: 300px;
+    width: 200px;
+}
+#fond{
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   padding: 2%;
+} 
+footer{
+    background-color:rgb(247, 57, 57);
+    text-align:center;
+    padding: 25px;
+    justify-content: space-between;
+}
+.text{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    padding-left: 20%;
+    margin:5%;
+    font-size:20px;
+}
+
+h3{
+    color: white;
+}
+#img2{
+    height: 500px;
+    width:900px;
+    background-attachment: fixed;
+ 
+}
+/*Responsive desing*/
+
+@media(max-width:767px){
+   header{
+       flex-direction: column;
+       
+   }
+}
